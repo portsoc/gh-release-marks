@@ -1,0 +1,25 @@
+{
+  "name": "gh-release-marks",
+  "version": "0.0.1",
+  "description": "release marks and feedback through github issues from a csv file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^4.16.0"
+  },
+  "eslintConfig": {
+    "extends": "portsoc",
+    "root": true,
+    "env": {
+      "browser": true
+    }
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-portsoc": "^0.8.2"
+  }
+}
